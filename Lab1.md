@@ -816,3 +816,48 @@ chown root:admin project.sh # Change owner to root and group to admin
 
 ```
 ```
+
+Perfect — let’s make it look polished and “fancy” inside your `LAB0.md`. Here’s how you can format those **Extra Questions** with stylish Markdown touches:
+
+````markdown
+## ✨ Extra Questions
+
+### 🔹 Q1: What is the difference between `chmod` and `chown`?
+- **`chmod`** → Changes the **permissions** (read, write, execute) of a file or directory.  
+  Example:  
+  ```bash
+  chmod 755 file.txt   # owner=rwx, group=rx, others=rx
+````
+
+* **`chown`** → Changes the **ownership** (user and/or group) of a file or directory.
+  Example:
+
+  ```bash
+  chown user1:group1 file.txt   # owner=user1, group=group1
+  ```
+
+> 📝 In short: `chmod` = *what actions are allowed*, `chown` = *who owns it*.
+
+---
+
+### 🔹 Q2: How do you check the current directory and user?
+
+* **Check Current Directory:**
+
+  ```bash
+  pwd
+  ```
+
+  Output → Prints the full path of the current working directory.
+
+* **Check Current User:**
+
+  ```bash
+  whoami
+  ```
+
+  Output → Displays the username of the logged-in user.
+
+---
+
+---
