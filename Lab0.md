@@ -33,24 +33,51 @@ I chose to install Ubuntu using **[VirtualBox]**.
 ---
 
 ### 💽 Installation
-![Installation Screenshot](images/installation.png)  
+![Installation Screenshot](Lin_shots/uname.png)  
 *Ubuntu ISO booted successfully and installation completed.*  
 
 ---
 
 ### 👤 First Login
-![First Login Screenshot](images/first-login.png)  
+![First Login Screenshot](Lin_shots/ds-h.png)  
 *Logged into Ubuntu for the first time with default user account.*  
 
 ---
 
-## 3. Terminal Outputs
+### A short reflection: What challenges did I face during installation?
 
-Below are the results of the required commands:  
+```
 
-```bash
-$ lsb_release -a
-Distributor ID: Ubuntu
-Description:    Ubuntu 22.04.5 LTS
-Release:        22.04
-Codename:       jammy
+The process was rather simple in itself, and not so tiring 👌... but the most probable cause of stress in the whole process was minutes and minutes of loading screen of ubuntu.
+
+```
+
+### Extra Questions:
+
+```
+
+What are two advantages of installing Ubuntu in VirtualBox?
+
+---
+
+### **Advantages of Installing Ubuntu in VirtualBox**
+
+1. **Safety and Flexibility** — You don’t risk messing with existing disk partitions or the main OS. If something goes wrong, you can just delete the VM and start fresh.
+2. **Snapshots and Parallel Use** — VirtualBox allows you to take snapshots, roll back instantly, and run Ubuntu alongside Windows without rebooting.
+
+---
+
+
+What are two advantages of dual booting instead of using a VM?
+
+### **Advantages of Dual Booting Instead of Using a VM**
+
+1. **Full Hardware Performance** — Since Ubuntu runs directly on the machine, it uses 100% of CPU, GPU, and RAM, making it much faster than a VM (especially for resource-heavy tasks).
+2. **Direct Hardware/Driver Access** — Dual boot avoids virtualization overhead and ensures proper support for drivers, graphics, and peripherals — ideal for gaming, graphics-intensive work, or networking.
+
+---
+
+
+```
+
+
