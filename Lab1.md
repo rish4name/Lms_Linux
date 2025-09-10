@@ -1,23 +1,3 @@
-# 🐧 Linux Basic Commands – Quick Reference  
-
-Welcome to your **Linux command cheat sheet**!  
-This guide covers the most common commands you’ll use while working in the terminal, with examples, explanations, and tips.  
-
-
----
-
-## ✅ 1. Navigation Commands  
-
-### 📍 `pwd` – Print Working Directory  
-Shows the **current location** in the filesystem.  
-
-```bash
->> pwd
-```
-``` 
-/c/Users/Rishabh/OneDrive/Desktop/Linux_lab
-```
-
 # 🐧 Linux Basic Commands  
 
 
@@ -36,6 +16,8 @@ pwd
 ```
 /Users/Rishabh/projects
 ```
+
+![output](/Lin_shots/pwd.png)
 
 
 
@@ -83,6 +65,9 @@ Moves into a directory.
 cd folder_name
 ```
 
+
+![output](/Lin_shots/cd.png)
+
 **Examples:**
 
 ```bash
@@ -104,6 +89,9 @@ Creates a new folder.
 mkdir new_folder
 ```
 
+
+![output](/Lin_shots/mkdir.png)
+
 ---
 
 ### 📄 `touch` – Create File
@@ -113,6 +101,9 @@ Creates an empty file.
 ```bash
 touch file.txt
 ```
+
+
+![output](/Lin_shots/touch.png)
 
 ---
 
@@ -132,6 +123,9 @@ cp -r folder1 folder2
 
 ---
 
+
+![output](/Lin_shots/cp.png)
+
 ### ✏️ `mv` – Move or Rename Files
 
 ```bash
@@ -141,6 +135,9 @@ mv file.txt ~/Documents/     # Move file
 
 ---
 
+
+![output](/Lin_shots/move.png)
+
 ### 🗑️ `rm` – Remove Files
 
 Deletes files or folders.
@@ -149,6 +146,10 @@ Deletes files or folders.
 rm file.txt          # Delete file
 rm -r folder_name    # Delete folder (recursively)
 ```
+
+
+![output](/Lin_shots/rm.png
+)
 
 ⚠️ **Be careful!** There is no undo.
 
@@ -164,6 +165,8 @@ Displays file content in the terminal.
 cat file.txt
 ```
 
+
+![output](/Lin_shots/cat.png)
 ---
 
 ### ✍️ `nano` – Edit Files in Terminal
@@ -187,6 +190,7 @@ clear
 
 Shortcut: `CTRL + L`
 
+
 ---
 
 ## ✅ 4. System Commands
@@ -197,6 +201,9 @@ Shortcut: `CTRL + L`
 echo "Hello, World!"
 ```
 
+
+![output](/Lin_shots/echo.png)
+
 ---
 
 ### 👤 `whoami` – Show Current User
@@ -205,6 +212,9 @@ echo "Hello, World!"
 whoami
 ```
 
+
+![output](/Lin_shots/echo.png)
+
 ---
 
 ### 📖 `man` – Manual for Any Command
@@ -212,6 +222,9 @@ whoami
 ```bash
 man ls
 ```
+
+
+![output](/Lin_shots/manls.png)
 
 Use `q` to quit the manual.
 
