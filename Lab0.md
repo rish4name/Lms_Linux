@@ -46,15 +46,14 @@ I chose to install Ubuntu using **[VirtualBox]**.
 
 ### A short reflection: What challenges did I face during installation?
 
-```
+
 
 The process was rather simple in itself, and not so tiring 👌... but the most probable cause of stress in the whole process was minutes and minutes of loading screen of ubuntu.
 
-```
 
 ### Extra Questions:
 
-```
+
 
 What are two advantages of installing Ubuntu in VirtualBox?
 
@@ -78,6 +77,5 @@ What are two advantages of dual booting instead of using a VM?
 ---
 
 
-```
 
 
