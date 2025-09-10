@@ -27,7 +27,7 @@ I chose to install Ubuntu using **[VirtualBox]**.
 ## 2. Screenshots of Each Step
 
 ### 🔧 Setup
-![Setup Screenshot](Desktop/Lin_shots/u_model.png)  
+![Setup Screenshot](/Lin_shots/u_model.png)  
 *Created the VM / configured disk partitions before installation.*  
 
 ---
