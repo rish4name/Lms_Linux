@@ -1,8 +1,6 @@
 # LAB 0 — Linux Installation Report
 
-*Course:* [Course Name Here]  
-*Student:* [Your Name / Roll Number]  
-*Date:* [Date of Submission]  
+*Course:* [Linux Lab]  
 
 ---
 
@@ -19,17 +17,17 @@
 ---
 
 ## 1. Installation Method Chosen
-I chose to install Ubuntu using **[VMware/VirtualBox/Dual Boot]**.  
+I chose to install Ubuntu using **[VirtualBox]**.  
 
 **Reasoning:**  
-- (Write 2–3 sentences about why you chose this method. For example: “I wanted to avoid modifying disk partitions, so I opted for VirtualBox.”)  
+- I chose virtual box because it is the safest, and comfortable option for a beginner at the computer handling and its inner mechanics. 
 
 ---
 
 ## 2. Screenshots of Each Step
 
 ### 🔧 Setup
-![Setup Screenshot](images/setup.png)  
+![Setup Screenshot](C:\Users\Rishabh\OneDrive\Desktop\Lin_shots\u_model.png)  
 *Created the VM / configured disk partitions before installation.*  
 
 ---
