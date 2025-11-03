@@ -76,6 +76,8 @@ nice -n 10 sleep 300 &
 
 ### 📸 Output
 
+![alt text](Lin_shots/nice-sleep.png)
+
 ### 🔄 Reprioritize an Existing Process
 
 ```bash
@@ -86,6 +88,7 @@ renice -n -5 -p 3050
 
 ### 📸 Output
 
+![alt text](Lin_shots/renice.png)
 ---
 
 ## 🔧 5. CPU Affinity — Binding a Process to Specific Cores
