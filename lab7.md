@@ -22,6 +22,8 @@ Together, they approximate a low-level “process census,” useful for diagnost
 
 ### 📸 Output
 
+![Alt Text](Lin_shots/ps-aux.png)
+
 ---
 
 ## 🌲 2. Visualizing the Process Hierarchy
@@ -38,7 +40,8 @@ Processes in Linux are not a flat list; they form a **hierarchical tree** rooted
 `pstree` exposes these ancestry relations, making orphaned or runaway children immediately visible.
 
 ### 📸 Output
-
+![Alt Text](Lin_shots/ps-tree1.png)
+![Alt Text](Lin_shots/ps-tree2.png)
 ---
 
 ## 📊 3. Observing Real-Time System Dynamics
@@ -56,6 +59,8 @@ Use it to spot CPU hogs, memory leaks, or load spikes.
 👉 Press `q` to exit before losing yourself in the numbers.
 
 ### 📸 Output
+
+![alt text](Lin_shots/top.png)
 
 ---
 
