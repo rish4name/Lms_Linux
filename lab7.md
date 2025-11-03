@@ -62,10 +62,6 @@ Use it to spot CPU hogs, memory leaks, or load spikes.
 ### 📸 Output
 
 ![alt text](Lin_shots/top.png)
-<<<<<<< HEAD
-
-=======
->>>>>>> 7ab281e (local updates)
 ---
 
 ## ⚡ 4. Manipulating Process Scheduling Priority
@@ -116,6 +112,8 @@ taskset -cp 1 3050
 
 ### 📸 Output
 
+![alt text](Lin_shots/taskset.png)
+
 ---
 
 ## 📂 6. I/O Scheduling Priority
@@ -130,6 +128,7 @@ ionice -c 3 -p 3050
 
 ### 📸 Output
 
+![alt text](Lin_shots/ionice.png)
 ---
 
 ## 📑 7. Inspecting File Descriptors of a Process
@@ -146,6 +145,8 @@ A process is fundamentally defined by the **resources it holds**.
 `lsof` reveals open files, sockets, pipes, and more — invaluable for debugging stuck I/O or memory-leaking daemons.
 
 ### 📸 Output
+
+![alt text](Lin_shots/lsof.png)
 
 ---
 
@@ -164,6 +165,8 @@ Perfect for reverse-engineering behavior, debugging failures, or understanding p
 
 ### 📸 Output
 
+![alt text](Lin_shots/strace.png)
+
 ---
 
 ## 📡 9. Identifying Which Process Owns a Network Port
@@ -178,6 +181,8 @@ sudo fuser -n tcp 8080
 
 ### 📸 Output
 
+![alt text](Lin_shots/fuser.png)
+
 ---
 
 ## 📊 10. Per-Process Performance Statistics
@@ -189,6 +194,8 @@ pidstat -p 3050 2 3
 ```
 
 👉 Samples CPU/IO usage every **2 seconds**, repeating **3 times** — a lightweight profiler without full tracing overhead.
+
+![alt text](Lin_shots/pidstat.png)
 
 ### 📸 Output
 
@@ -218,6 +225,8 @@ echo 3050 | sudo tee /sys/fs/cgroup/cpu/testgroup/cgroup.procs
 👉 cgroups offer **fine-grained, kernel-enforced governance** — far beyond what `nice` can control.
 
 ### 📸 Output
+
+![alt text](Lin_shots/eleven.png)
 
 ---
 
