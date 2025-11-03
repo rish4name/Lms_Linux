@@ -6,6 +6,7 @@
 ## 🔹 1. Enumerating All Active Processes
 
 ### 🔧 Command
+
 ```bash
 ps aux
 ````
@@ -40,8 +41,15 @@ Processes in Linux are not a flat list; they form a **hierarchical tree** rooted
 `pstree` exposes these ancestry relations, making orphaned or runaway children immediately visible.
 
 ### 📸 Output
+<<<<<<< HEAD
 ![Alt Text](Lin_shots/ps-tree1.png)
 ![Alt Text](Lin_shots/ps-tree2.png)
+=======
+
+![Alt Text](Lin_shots/ps-tree1.png)
+![Alt Text](Lin_shots/ps-tree2.png)
+
+>>>>>>> 7ab281e (local updates)
 ---
 
 ## 📊 3. Observing Real-Time System Dynamics
@@ -61,7 +69,10 @@ Use it to spot CPU hogs, memory leaks, or load spikes.
 ### 📸 Output
 
 ![alt text](Lin_shots/top.png)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7ab281e (local updates)
 ---
 
 ## ⚡ 4. Manipulating Process Scheduling Priority
@@ -77,7 +88,10 @@ nice -n 10 sleep 300 &
 ### 📸 Output
 
 ![alt text](Lin_shots/nice-sleep.png)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7ab281e (local updates)
 ### 🔄 Reprioritize an Existing Process
 
 ```bash
@@ -89,6 +103,10 @@ renice -n -5 -p 3050
 ### 📸 Output
 
 ![alt text](Lin_shots/renice.png)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7ab281e (local updates)
 ---
 
 ## 🔧 5. CPU Affinity — Binding a Process to Specific Cores
