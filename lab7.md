@@ -1,5 +1,3 @@
----
-
 ````markdown
 # 🧠 Linux Process Management — Technical Assignment  
 *A Guided Exploration of How Linux Really Thinks*
@@ -265,11 +263,5 @@ sudo schedtool -R -p 10 <pid>
 | `cgroups`     | Kernel-level resource governance | Superset of capabilities    |
 | `systemd-run` | systemd + cgroup orchestration   | Alternative + orchestration |
 | `schedtool`   | Custom scheduling classes        | Alternative                 |
-
----
-
-👉 Insert your screenshots under each **📸 Output** section to finalize documentation.
-
-```
 
 ---
