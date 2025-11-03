@@ -1,4 +1,3 @@
-````markdown
 # 🧠 Linux Process Management — Technical Assignment  
 *A Guided Exploration of How Linux Really Thinks*
 
