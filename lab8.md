@@ -1,6 +1,6 @@
 # ✅ Secure Remote GUI Access via SSH (X11) and VNC  
 **OS Used:** Ubuntu (both systems)  
-**Author:** Ryder  
+**Author:** Rishabh Pandey  
 **Course:** Linux System Administration  
 **Assignment:** Remote GUI Access & Verification
 
